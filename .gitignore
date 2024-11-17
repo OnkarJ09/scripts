@@ -1,0 +1,8 @@
+# To exclude the Virtual Environment
+venv/*
+
+# To exclude the testing files
+test/*
+
+# To exclude cache files
+..gitignore.swp

@@ -10,7 +10,8 @@ def backup_folder(src_dir, dest_dir):
             shutil.copy(full_file_name, dest_dir)
             print(f"Backed up {file} to {dest_dir}")
 
-source = "save/"
-destination = "~/Downloads"
+# Back up folder's location
+source = "main_folder"
+destination = "destination_folder"
 
 backup_folder(source, destination)
